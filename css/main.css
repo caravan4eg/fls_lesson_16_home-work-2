@@ -116,7 +116,93 @@
 	transition: all 0.2s ease;
 }
 
-.form__discount-button:hover{
+.form__discount-button:hover {
 	background-color: #0156FF;
 	color: whitesmoke;
+}
+
+
+
+/* customer login section */
+.customer-login {
+	margin: 35px;
+	border: 1px solid #A2A6B0;
+	border-radius: 4px;
+}
+
+.customer-login__title {
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 48px;
+	color: #000000;
+	margin: 0px 0px 21px 0px;
+}
+
+.customer-login__body {
+	display: flex;
+	padding: 0px 0px 0px 165px;
+
+}
+
+.customer-login__registered {
+	padding: 37px 58px;
+	margin: 0px 34px 0px 0px;
+}
+
+.customer-login__subtitle {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 27px;
+	color: #000000;
+	margin: 0px 0px 20px 0px;
+}
+
+.customer-login__description {
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 2.14;
+	color: #000000;
+	margin: 0px 0px 25px 0px;
+
+}
+
+.customer-login__button {
+	background: #0156FF;
+	border-radius: 50px;
+	height: 50px;
+	font-weight: 600;
+	font-size: 14px;
+	text-align: center;
+	padding: 0px 45px 0px 45px;
+	color: #FFFFFF;
+	margin: 0px 23px 0px 0px;
+	transition: all 0.3s ease-in-out;
+
+}
+
+.customer-login__button:hover{
+	background-color: #3271ef;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25),
+	0 8px 8px rgba(0, 0, 0, 0.22);
+}
+
+.customer-login__forgot-psw {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.43;
+	color: #0156FF;
+}
+
+.customer-login__new {
+	padding: 37px 58px;
+
+}
+
+.customer-login__list {
+	line-height: 2;
+	margin: 0px 0px 36px 0px;
+}
+
+.customer-login__list-item {
+	list-style-type: disc;
 }

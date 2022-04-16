@@ -21,7 +21,7 @@ body {
 }
 
 [class*="__container"] {
-	max-width: 1087px;
+	max-width: 1398;
 	margin: 0 auto;
 	/* отступы безопасности */
 	padding: 0 15px;
