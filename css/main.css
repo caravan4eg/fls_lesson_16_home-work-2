@@ -1,0 +1,116 @@
+.form {
+	max-width: 446px;
+	padding: 18px 30px;
+	/* background: #cfd0d2; */
+	border: 1px solid #A2A6B0;
+	border-radius: 4px;
+	margin: 35px auto;
+}
+
+.form__title {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 36px;
+	color: #000000;
+	margin: 0px 0px 19px 0px;
+}
+
+.form__subtitle {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 27px;
+	color: #000000;
+	margin: 0px 0px 12px 0px;
+}
+
+.form__info {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 21px;
+	color: #666666;
+	margin: 0px 0px 12px 0px;
+}
+
+.form__country-select {
+	width: 100%;
+	height: 50px;
+	background: #FFFFFF;
+	border: 1px solid #A2A6B0;
+	box-sizing: border-box;
+	border-radius: 4px;
+	padding: 0px 0px 0px 17px;
+}
+
+.form__input-block {
+	height: 88px;
+}
+
+.input-block {
+	margin: 0px 0px 5px 0px;
+}
+
+.input-block__label {
+	font-weight: 600;
+	font-size: 13px;
+	line-height: 2.10;
+	display: flex;
+	align-items: center;
+	color: #000000;
+}
+
+.input-block__input {
+	width: 100%;
+	height: 50px;
+	background: #FFFFFF;
+	border: 1px solid #A2A6B0;
+	border-radius: 4px;
+	padding: 0px 0px 0px 17px;
+}
+
+.form__rate {}
+
+.rate {}
+
+.form__input-block {}
+
+.input-block {}
+
+.input-block__label {}
+
+.rate__radio {}
+
+.rate__label {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.43;
+	color: #000000;
+}
+
+.form__discount-title {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 27px;
+	color: #000000;
+}
+
+.form__input-block {}
+
+.input-block {}
+
+.input-block__label {}
+
+.input-block__input {}
+
+.form__discount-button {
+	width: 100%;
+	height: 50px;
+	margin: 19px 0px 0px 0px;
+	display: block;
+	border: 2px solid #0156FF;
+	border-radius: 50px;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 21px;
+	text-align: center;
+	color: #0156FF;
+}

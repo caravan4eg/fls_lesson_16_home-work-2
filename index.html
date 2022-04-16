@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Лекция 16. Формы/ Домашняя работа 2</title>
+		<link rel="stylesheet" href="./css/base.css">
+	</head>
+	<body>
+		<!-- Квадратная картинка в круге -->
+		<div class="wrapper">
+			<!-- HEADER -->
+			<header class="header">
+				<div class="header__container">
+					<div class="header__title">
+						<h1>Lesson 16. Forms. Home work 2</h1>
+					</div>
+					
+
+
+				</div>
+
+			</header>
+
+			<!-- MAIN -->
+			<main class="main">
+				<!-- Summary form -->
+				<form action="#" class="form">
+
+					<!-- Form headers -->
+					<div class="form__title">Summary</div>
+					<div class="form__subtitle">Estimate Shipping and Tax</div>
+					<div class="form__info">Enter your destination to get a shipping estimate.</div>
+
+					<!-- Country select -->
+					<div class="form__input-block input-block">
+						<label class="input-block__label" for="country-select">Country</label>
+						<select class="form__country-select" name="country-select" id="country-select">
+							<option value="value1">Australia</option>
+							<option value="value2">USA</option>
+							<option value="value3">Brasilia</option>
+							<option value="value4">Belarus</option>
+						</select>
+					</div>
+					<!-- State/Province -->
+					<div class="form__input-block input-block">
+						<label class="input-block__label" for="state">State/Province</label>
+						<input class="input-block__input" type="text" name="state" id="state">
+					</div>
+
+					<!-- Zip/Postal Code -->
+					<div class="form__input-block input-block">
+						<label class="input-block__label" for="zip">Zip/Postal Code</label>
+						<input class="input-block__input" type="text" name="zip" id="zip">
+					</div>
+
+					<!-- choose rate -->
+					<div class="form__rate rate">
+						<div class="form__input-block input-block">
+							<label class="input-block__label" for="radio1">Standard Rate</label>
+							<input class="rate__radio" checked="checked" type="radio" name="radio" id="radio1" value="standart">
+							<label class="rate__label" for="radio1">Price may vary depending on the item/destination. Shop Staff will contact you. $21.00</label>
+						</div>
+
+						<div class="form__input-block input-block">
+							<label class="input-block__label" for="radio2">Pickup from store</label>
+							<input class="rate__radio" type="radio" name="radio" id="radio1" value="standart">
+							<label class="rate__label" for="radio2">1234 Street Adress City Address, 1234 $0.00</label>
+						</div>
+					</div>
+
+					<!-- Enter discount code-->
+					<div class="form__discount-title">
+						Apply Discount Code
+					</div>
+					<div class="form__input-block input-block">
+						<label class="input-block__label" for="zip">Enter discount code</label>
+						<input class="input-block__input" type="text" name="discount" id="discount" placeholder="Enter Discount code">
+					</div>
+
+					<!-- Apply Discount button -->
+					<button type="submit" class="form__discount-button">Apply Discount</button>
+
+
+
+
+
+
+
+				</form>
+
+			</main>
+
+			<!-- FOOTER -->
+			<footer class="footer">
+				<div class="footer__container">
+					<div class="footer__text">
+						Free life style - Winter 2022 | #caravan4eg
+					</div>
+				</div>
+
+			</footer>
+
+		</div>
+
+	</body>
+</html>
